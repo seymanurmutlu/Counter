@@ -1,0 +1,82 @@
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -o-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.clear {
+  clear: both;
+}
+body {
+  font-family: 'Helvetica Neue', arial, sans-serif;
+  background-color: #EEEEEE;
+}
+
+.header{
+  text-align: center;
+  margin-top: 30px;
+  font-size: 50px;
+  color: #333333;
+}
+
+.content{
+  height: auto;
+  padding: 30px;
+  text-align: center;
+}
+
+.content #box {
+  margin-left: auto;
+  margin-right: auto;
+  width: 500px;
+  height: 500px;
+  border-radius: 10%;
+  background-color: #333333;
+  padding-top: 10px;
+}
+
+.content .backScreen {
+  width: 88%;
+  height: 88%;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #232323;
+  border-radius: 8%;
+
+}
+
+#screen {
+  text-align: center;
+  font-size: 200px;
+  color: #EEEEEE;
+  display: inline-block;
+  padding: 70px;
+
+.content .buttons {
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#incrementButton {
+background-color: #EEEEEE;
+border-radius: 10px;
+padding: 6px;
+width: 100px;
+height: 40px;
+margin-right: 20px;
+}
+
+#incrementButton:hover{
+
+}
+
+#resetButton {
+background-color: #EEEEEE;
+border-radius: 10px;
+padding:6px;
+width: 100px;
+height: 40px;
+margin-left: 20px;
+}
